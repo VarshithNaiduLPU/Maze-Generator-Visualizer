@@ -52,6 +52,8 @@ function draw() {
       console.log("Done!");
       return;
     }
+    var canvs = document.querySelector("canvas");
+    canvs.classList.add("running");
   } else if (done == true) {
     console.log(current);
     current.green();
@@ -59,6 +61,8 @@ function draw() {
       grid[0].show();
     }, 500);
     done = undefined;
+    var canvs = document.querySelector("canvas");
+    canvs.classList.add("done");
   } else if (done == undefined) {
     if (logSub == false) {
       background(51);
