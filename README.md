@@ -1,6 +1,6 @@
 # [Maze Generator / Visualizer](https://varshithnaidulpu.github.io/Maze-Generator-Visualizer/)
 
-This project generates a radomized maze, using an algorim call DFS which explores the deepest path and backtracks.
+This project generates a randomized maze, using an algorithm call DFS which explores the deepest path and backtracks.
 
 <br>
 
